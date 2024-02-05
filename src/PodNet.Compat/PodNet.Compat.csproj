@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Description>A simple compatibility package that ambiently links compatibility shim source files for compilation. Use to add support for ranges, indexes, records and init properties.</Description>
+		<PackageTags>PodNet, compat, compatibility, shim, polyfill, netstandard2.0, .NET Standard 2.0, Range, Index, RuntimeHelpers, IsExternalInit, Record, init property, awesome</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="PodNet.NuGet.Core" Version="1.0.0" />
+
+		<Compile Remove="build/*" />
+		<Content Include="build/*" PackagePath="build" />
+	</ItemGroup>
+
+</Project>
