@@ -1,10 +1,7 @@
 <Project>
-	
+
 	<ItemGroup>
-		<Compile Include="$(MSBuildThisFileDirectory)Index.cs" Visible="false" />
-		<Compile Include="$(MSBuildThisFileDirectory)IsExternalInit.cs" Visible="false" />
-		<Compile Include="$(MSBuildThisFileDirectory)Range.cs" Visible="false" />
-		<Compile Include="$(MSBuildThisFileDirectory)RuntimeHelpers.cs" Visible="false" />
+		<Compile Include="$(MSBuildThisFileDirectory)PodNet.Compat\**" LinkBase="PodNet.Compat" Visible="false" />
 	</ItemGroup>
-	
+
 </Project>
