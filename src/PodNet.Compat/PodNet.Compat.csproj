@@ -10,8 +10,8 @@
 	<ItemGroup>
 		<PackageReference Include="PodNet.NuGet.Core" Version="1.0.0" />
 
-		<Compile Remove="buildTransitive/*" />
-		<Content Include="buildTransitive/*" PackagePath="buildTransitive" />
+		<Compile Remove="buildTransitive/**" />
+		<Content Include="buildTransitive/**" PackagePath="buildTransitive" />
 
 		<Content Include="lib/netstandard2.0/_._" PackagePath="lib/netstandard2.0" />
 	</ItemGroup>
