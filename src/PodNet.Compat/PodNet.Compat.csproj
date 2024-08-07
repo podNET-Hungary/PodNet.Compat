@@ -8,7 +8,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="PodNet.NuGet.Core" Version="1.0.4" PrivateAssets="all" />
+		<PackageReference Include="PodNet.NuGet.Core" Version="1.0.5" PrivateAssets="all" />
 
 		<Compile Remove="buildTransitive/**" />
 		<Content Include="buildTransitive/**" PackagePath="buildTransitive" />
